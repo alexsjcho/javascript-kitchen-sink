@@ -28,3 +28,19 @@ let vegetables = ["Carrots", "Potatoe", "Beans"];
         i++;
         return vegetable
     }
+
+//5 Objects with name and age properties
+function ageCheck = {"John": 15, "Jack":22, "James":24, "Janice": 25, "Jenny": 14};
+    for ageCheck {
+        console.log(ageCheck);
+    } 
+
+//Function called getLength
+function getLength("word"){
+    if ("word"%2 == 0)
+        return "The world is nice and even!";
+} else {
+    return "The world is an odd place!";
+}
+
+getLength.call("Word");
